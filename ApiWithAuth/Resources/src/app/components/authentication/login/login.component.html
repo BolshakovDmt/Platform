@@ -1,0 +1,22 @@
+<div class="form">
+    <div class="frame">
+        <form class="" (submit)="userLoginClick()">
+            <div>
+                <label class="login">Авторизация</label>
+                <label class="name-input">Email</label>
+                <input type="email" name="email" [(ngModel)]="email" class="input">
+                <label class="err-label">{{emailErrLabel}}</label>
+            </div>
+            <div>
+                <label class="name-input">Пароль</label>
+                <input type="password" name="password" [(ngModel)]="password" class="input">
+                <label class="err-label">{{errLabel}}</label>
+            </div>
+            <div class="padding"><button class="bb" type="submit">Войти</button></div>
+        </form>
+        <section class="bb-frame">
+            <button class="bb1"><a routerLink="/password-reset" class="bb1">Забыли пароль?</a></button>
+            <button class="bb2"><a routerLink="/registration" class="bb1">Зарегистрироваться</a></button>
+        </section>
+    </div>
+</div>

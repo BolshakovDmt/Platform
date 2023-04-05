@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  background: #D76B49;
+  width: 6.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 14px;
+  gap: 31px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+
+  width: 79px;
+  height: 70px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.ng-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 78px;
+  height: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 0;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-size: cover;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button-desc{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header{
+  font-family: 'Roboto';
+  font-style: bold;
+  font-size: 46px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.input{
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.search-name{
+  display: flex;
+}
